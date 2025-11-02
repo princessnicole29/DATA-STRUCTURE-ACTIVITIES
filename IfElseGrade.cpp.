@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int grade;
+    cout<< "Enter your grade: ";
+    cin>> grade;
+    
+    if(grade >= 75 && grade <= 100 ){
+        cout<< "Result: PASS!!"<<endl;
+    }
+        else{
+            cout<<"Result: FAIL!!"<<endl;
+        }
+    
+    return 0;
+}
