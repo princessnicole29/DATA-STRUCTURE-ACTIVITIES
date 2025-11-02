@@ -1,0 +1,40 @@
+  #include <iostream>
+  using namespace std;
+
+  int main() {
+     int choice;
+     float radius, length, width;
+     float areac, arear;
+     
+     cout << "MENU:\n";
+cout << "1. Compute Area of Circle\n";
+cout << "2. Compute Area of Rectangle\n";
+cout << "3. Exit\n";
+     cout << "Enter your choice: ";
+     cin>> choice;
+     
+     switch (choice) {
+         case 1: 
+         cout << "Enter your radius: ";
+         cin>>radius;
+         areac= 3.14 * radius * radius;
+         cout<<"Area of circle: " << areac << endl;
+         break;
+         
+         case 2: 
+         cout << "Enter your length: ";
+         cin>>length;
+         cout << "Enter your width: ";
+         cin>> width;
+         arear= length * width;
+         cout<<"Area of rectangle: " << arear << endl;
+         break;
+         
+         case 3:
+         cout << "GOODBYE!!"<<endl;
+         break;
+     }
+     
+      return 0;
+  }
+  
