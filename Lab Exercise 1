@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int list[5] = {2, 4, 6, 8, 10};
+    
+    //Modify your code to prevent accessing invalid indices.
+    int index;
+    cout << "Enter an index (0-4) to access: ";
+    cin >> index;
+    
+    if (index >= 0 && index < 5) {
+        cout << "Element at list[" << index << "]: " << list[index] << endl;
+        cout << "All valid elements: ";
+    for (int i = 0; i < 5; i++) {
+        cout << list[i] << " ";
+    }
+    cout << endl;
+    } else {
+        cout << "Error: Index out of bounds! Valid range is 0-4." << endl;
+    }
+    
+    
+    
+    return 0;
+}
