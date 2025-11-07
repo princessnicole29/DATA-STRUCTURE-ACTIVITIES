@@ -13,27 +13,27 @@ int list4[25] = {4, 7};
 
        
         cout << "Elements in list1: ";
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 10; i++) {
         cout << list1[i] << " ";
     }
     cout << endl;
     
     cout << "Elements in list2: ";
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 10; i++) {
         cout << list2[i] << " ";
     }
     
     cout << endl;
     
     cout << "Elements in list3: ";
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 3; i++) {
         cout << list3[i] << " ";
     }
     
     cout << endl;
     
     cout << "Elements in list4: ";
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 25; i++) {
         cout << list4[i] << " ";
     }
     
